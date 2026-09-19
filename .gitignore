@@ -1,0 +1,12 @@
+# Never publish fleet-specific or sensitive files from this repository.
+backup/
+*.mbn
+*.elf
+*.bin
+!install_latest.sh
+*.tar.gz
+*.zip
+*.log
+.env
+*.pem
+*.key
